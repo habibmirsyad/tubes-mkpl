@@ -30,7 +30,7 @@ public class DiceGame {
     }
 
     public boolean isGameOver() {
-        return gameOver;
+        return targetScore;
     }
 
     public void setGameOver(boolean gameOver){
